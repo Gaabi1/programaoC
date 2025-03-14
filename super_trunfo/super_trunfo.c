@@ -13,7 +13,7 @@ int main()
     int turistico;
     float densidade_populacional;
     float PIB_per_capita;
-
+    //Dados da carta 1
     printf("Carta 1\n");
     
     printf("Estado letra A a H: ");
@@ -49,7 +49,7 @@ int main()
     int turistico2;
     float densidade_populacional2;
     float PIB_per_capita2;
-    
+    //Dados da carta 2
     printf("Carta 2\n");
     
     printf("Estado letra A a H: ");
@@ -76,11 +76,7 @@ int main()
     densidade_populacional2= (float) populacao2/area2;
     PIB_per_capita2= PIB2 / (float)populacao2;
     
-    float poder=(float)(populacao + area+ PIB + PIB_per_capita + turistico+ (1/densidade_populacional));
-    float poder2=(float)(populacao2 + area2+ PIB2 + PIB_per_capita2 + turistico2+ (1/densidade_populacional2));
-
     int opcao, opcao2;
-    int resultado, resultado2;
     float somaCarta1 = 0, somaCarta2 = 0;
 
     printf("Escolha 2 atributos para comparar:\n");
