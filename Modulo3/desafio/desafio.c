@@ -57,6 +57,7 @@ int main()
             }
             break;
         case 2:
+        //Movimentos Bispo
             printf("Número de casas : ");
             scanf("%d", &casas);
             printf("Pra cima direita(1), Pra cima esquerda(2)?");
@@ -83,6 +84,7 @@ int main()
             }
             break;
         case 3:
+        //Movimentos Torre
             printf("Número de casas : ");
             scanf("%d", &casas);
             printf("Pra cima direita(1), Pra cima esquerda(2)?");
@@ -109,6 +111,7 @@ int main()
             }   
             break;
         case 4:
+        //Movimentos Cavalo
             printf("Número de casas para cima : ");
             scanf("%d", &casas);
             printf("Vira 1 casa direita(1), Vira 1 casa esquerda(2)?");
